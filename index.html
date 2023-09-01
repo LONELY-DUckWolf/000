@@ -1,90 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
+
 </head>
-<body class="body">
-    <h1 class="bob">Мой досуг!</h1>
-    <h3 class="I">Ща немного о бо мне! Меня зовут Борислав. Мне 11 лет. Увлекаюсь ютубом и айти, это если про професии, а так футбол, баскет, лего, котами и тхеквондо!</h3>
-    <h3 class="I">А эт я.</h3>
-    <img class="II"  src="bublik.jpg" alt="I">
-    
-    <b class="bob">
-        <p>Мой досуг на выходных!</p>
-        <p>      |         </p>
-        <p>      |         </p>
-        <p>     \ /        </p>
-        <p>                </p>
-        <p>А также мой ют <a href="https://www.youtube.com/channel/UCgwAg_RAaOzTPssuJJYe76w" title="не надо вася не надо!!!!!!! " style="color: yellow;">канал</a></p>
-    
-    </b>
-    <main class="section">
-        <b>
-            <section>
-                <ol>
-                    <li>
-                        Утричком позанимался спортом.
-                    </li>
-                
-                    <li>
-                        Зделал блинчики.
-                    </li>
-                
 
-                    <li>
-                        Позавтракал.
-                    </li>
+<body>
+    <form action="">
+        <h2>заполни данные про себя. Жыво!</h2>
+        <div>
+            <label for="email">введите почту =)</label>
+            <input type="email" placeholder="boryslavshevchenko18112011@gmail.com" id="email" autofocus> 
+        </div>
+        <div>
+            <label for="text">введите имя =)</label>
+            <input type="text" placeholder="Борислав" id="text">
+        </div>
+        <div>
+            <label for="phone">введите номер телефона =)</label>
+            <input type="phone" placeholder="+38(097)043-0423" id="phone">  
+        </div>
+        <div>
+            <h3>выберите курс.</h3>
+            <ul>
+                <li>
+                    <input type="checkbox" id="html">
+                    <label for="html">HTML5</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="css">
+                    <label for="css">CSS3</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="js">
+                    <label for="js">Java Script</label>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>уровень знань</h3>
 
-                    <li>
-                        Позанимался софт/тех
-                    </li>
+            <ul>
+                <li>
+                    <input type="radio" name="experiense">
+                    <label for="experiense">Juinior</label>
+                </li>
+                <li>
+                    <input type="radio" name="experiense">
+                    <label for="experiense">Middle</label>
+                </li>
+                <li>
+                <input type="radio" name="experiense">
+                <label for="experiense">Senior</label>
+            </li>
+            </ul>
+        </div>
+        <div>
+            <input type="file" id="pdf">
+            <label for="pdf">загрузить файл pdf</label>
+            <input type="datetime-local">
+        </div>
+        
+        <button type="submit">Оправить. Спасибо за отправку!</button>
 
-                    <li>
-                        Пообедал.
-                    </li>
+    </form>
 
-                    <li>
-                        Поиграл с котиками.
-                    </li>
-
-                    <li>
-                        Поиграл в телефон.
-                    </li>
-
-                    <li>
-                        Поужанал.
-                    </li>
-
-                    <li>
-                        Сыграл с папой в футбик.
-                    </li>
- 
-                    <li>
-                        И спать.
-                    </li>
-                </ol>
-            </section>
-
-            <section>
-                <ul>
-                    <li>
-                        <a href="https://www.youtube.com/channel/UCgwAg_RAaOzTPssuJJYe76w">Мой Ютуб</a>
-                    </li>
-
-                    <li>
-                        <a href="https://ua.sinoptik.ua/">Sinoptik</a>
-                    </li>
-
-                    <li>
-                      <a href="https://rozetka.com.ua/">Rozetka</a>  
-                    </li>
-                </ul>
-            </section>
-        </b>
-    </main>
 </body>
+
 </html>
